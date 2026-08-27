@@ -1,5 +1,5 @@
 
-print("--- Enter Order Details ---")
+print("Enter Order Details")
 
 order_amount = float(input("Enter Order Amount (e.g., 650.0): "))
 delivery_distance = float(input("Enter Delivery Distance in km (e.g., 5.2): "))
@@ -114,18 +114,14 @@ final_payable_amount = order_amount - discount + delivery_charge
 
 
 
-print("\n==========================================")
-print("         ORDER AUTOMATION REPORT          ")
-print("==========================================")
+print(" ORDER AUTOMATION REPORT ")
 print("Order Status           :", order_status)
 print("Manual Review Status   :", manual_review_status)
 print("Restaurant Status      :", restaurant_status)
 print("Cancellation Risk      :", cancellation_risk)
 print("Final Order Category   :", final_order_category)
 print("Priority Status        :", priority_status)
-print("------------------------------------------")
 print("Order Amount           :", order_amount)
 print("Discount Applied       :", discount)
 print("Delivery Charge        :", delivery_charge)
 print("Final Payable Amount   :", final_payable_amount)
-print("==========================================")
